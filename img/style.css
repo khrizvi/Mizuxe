@@ -1,0 +1,89 @@
+
+body{
+  margin-top: 77px;
+  }
+  /**Global Area**/
+  .radius_none{
+    border-radius: 0;
+  }
+  .bg_change{
+    background-color: #3292A6;
+    border: 0;
+  }
+
+  /**Nav Section**/
+  .navbar{
+  box-shadow: 2px 2px 5px #67ADB5;
+  background: #fff;
+  opacity: 0.9;
+}
+.nav-item{
+  padding-right: 20px;
+}
+.nav-item:last-child{
+  padding-right: 0;
+}
+.nav-link{
+  font-size: 1.4rem;
+  color: #252525 !important;
+}
+.nav-link:hover{
+  color: #67ADB5 !important;
+}
+/**Home Section ShowCase Area**/
+#showcase{
+  background: url(../img/mountain.jpg) top center;
+  background-size: cover;
+  min-height: 600px;
+  position: relative;
+}
+#showcase .bg_overlay{
+  background: rgba(50, 146, 156, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#showcase_subscribe .btn:hover{
+  background: #297889;
+}
+#author img{
+  max-width:100px;
+  height: 100px;
+}
+#author .img_customize{
+  margin-top: -50px;
+}
+#author .icon_large{
+  font-size: 25px;
+}
+#author .card:hover{
+  background: #3292A6;
+  color: #fff;
+
+}
+#author .card:hover .fa {
+    color: #fff;
+  }
+
+
+/**Media Query**/
+@media (max-width:575px) {
+  #showcase h2{
+    font-size: 4rem;
+  }
+
+}
+@media (max-width:768px){
+  #author img{
+    max-width: 150px;
+    height: 150px;
+  }
+}
+@media (max-width:575px){
+  #author img{
+    max-width: 220px;
+    height: 220px;
+  }
+}

@@ -1,0 +1,92 @@
+/**Global**/
+._global {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+}
+
+a {
+  color: #3292A6;
+}
+
+/**Element Body**/
+body {
+  margin-top: 92px;
+}
+
+/** Nav Area **/
+#NavBar {
+  -webkit-box-shadow: 2px 2px 5px #3292A6;
+          box-shadow: 2px 2px 5px #3292A6;
+  background: #fff;
+  opacity: 0.9;
+}
+
+#NavBar .nav-item {
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+#NavBar .nav-item:last-child {
+  padding-right: 0;
+}
+
+#NavBar .nav-link {
+  color: #000;
+}
+
+#NavBar .nav-link:hover {
+  color: #3292A6;
+}
+
+/** ShowCase Area **/
+#showcase {
+  position: relative;
+  background: url(../img/mountain.jpg);
+  background-attachment: fixed;
+  min-height: 650px;
+}
+
+#showcase .showcase_overlay {
+  background: rgba(50, 146, 156, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/** Authors Area **/
+#authors img {
+  margin-top: -60px;
+  margin-bottom: 15px;
+}
+
+#authors .card:hover {
+  background: #3292A6;
+  color: #fff;
+}
+
+#authors .fa {
+  font-size: 25px;
+}
+
+#authors .fa:hover {
+  color: #fff;
+}
+
+/**Contact Area**/
+#contact .input-group-text,
+.form-control {
+  border-radius: 0 !important;
+}
+
+/**Responsive Breakpoint**/
+@media (max-width: 575px) {
+  #showcase h2 {
+    font-size: 4rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
